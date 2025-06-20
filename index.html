@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="/CSS/Index.css">
+</head>
+<body>
+	<nav>
+    <!-- Imagem do logo alinhada à esquerda -->
+    <a href="/index.html" class="logo-link">
+        <img src="/img/PeregrinoLogoCrop.png" alt="Logo Peregrino" class="nav-logo-img">
+    </a>
+
+    <!-- Container central para menu e botões -->
+    <div class="nav-center-container">
+        <p class="hidden">ignore</p>
+        <ul class="nav">
+            <li><a href="/HTML/caminhos.html">Caminhos</a></li>
+            <li><a href="/HTML/noticias.html">Notícias</a></li>
+            <li><a href="/HTML/Comunidade.html">Comunidade</a></li>
+			<li><a href="/HTML/quemsomos.html">Sobre</a></li>
+            <li><a href="/html/perfil.html">Perfil</a></li>
+        </ul>
+    </div>
+
+    <!-- Botões à direita -->
+    <div class="nav-btns">
+        <a class="active" href="/HTML/login.html"><button style="background: #C2A484;">Entrar</button></a>
+        <a class="active" href="/HTML/Registar.html"><button style="background: #2C8B57;">Registar</button></a>
+    </div>
+</nav>
+
+	<script src="/JS/views/loginView.js"></script>
+	<img src="img/home2_image.jpg" alt="home image">
+	<h1 class="h1-titulos">Caminhos Recomendados</h1>
+	<div class="cards-container">
+		<a href="/html/Caminhos/CaminhoFrancês.html">
+		<div class="card card-um">
+			<div class="card-content">
+				<h2 class="card-title">Caminhos Francês</h2>
+				<div class="card-location">Duração: 30 Dias</div>
+				<div class="card-date">Nº Etapas: 14</div>
+			</div>
+		</div>
+		</a>
+		<a href="/html/Caminhos/CaminhoPortuguesCentral.html">
+		<div class="card card-dois">
+			<div class="card-content">
+				<h2 class="card-title">Caminho Português Central</h2>
+				<div class="card-location">Duração: 20 Dias</div>
+				<div class="card-date">Nº Etapas: 15</div>
+			</div>
+		</div>
+		</a>
+		<a href="/html/Caminhos/CaminhoPrimitivo.html">
+		<div class="card card-tres">
+			<div class="card-content">
+				<h2 class="card-title">Caminho Primitivo</h2>
+				<div class="card-location">Duração: 15 Dias</div>
+				<div class="card-date">Nº Etapas: 15</div>
+			</div>
+		</div>
+		</a>
+		<a href="/html/Caminhos/CaminhoPortuguesInterior.html">
+		<div class="card card-quatro">
+			<div class="card-content">
+				<h2 class="card-title">Caminho Português Interior</h2>
+				<div class="card-location">Duração: 16 Dias</div>
+				<div class="card-date">Nº Etapas: 14</div>
+			</div>
+		</div>
+		</a>
+	</div>
+
+		<h1 class="h1-titulos">Últimas Notícias</h1>
+<div class="news-cards-container2">
+    <a href="/HTML/Noticias/Chuvas-Intensas-Atingem-os-Caminhos-de-Santiago.html" class="news-card2">
+        <div class="news-image-container2">
+            <img src="/img/chuva1.jpg" alt="-">
+        </div>
+        <div class="news-content2">
+            <h3>Chuvas Intensas Atingem os Caminhos de Santiago</h3>
+            <p>Chuvas intensas causam transtornos nos principais caminhos...</p>
+        </div>
+    </a>
+
+    <a href="/HTML/Noticias/estudos-confirmam-que-caminhar-aumenta-a-saude.html" class="news-card2">
+        <div class="news-image-container2">
+            <img src="/img/hike.jpg" alt="-">
+        </div>
+        <div class="news-content2">
+            <h3>Estudos confirmam que Caminhar aumenta a saúde</h3>
+            <p>Estudo publicado mostra que mais de 70% dos peregrinos...</p>
+        </div>
+    </a>
+</div>
+<!---------FOOTER--------------------------------------------------------->
+<footer class="footer">
+	<div class="footer-column">
+	<ul>
+		<li><a href="#">Termos de Utilização</a></li>
+		<li><a href="#">Política de Privacidade e de Cookies</a></li>
+		<li><a href="#">Definição de privacidade e cookies</a></li>
+	</ul>
+	<p class="copyright">© 2025 PEREGRINO. Todos os direitos reservados</p>
+	</div>
+
+	<div class="footer-column">
+	<h3>Contacte-nos</h3>
+	<ul>
+		<li><a href="mailto:teste@gmail.com">E-mail: teste@gmail.com</a></li>
+		<li><a href="tel:912345654">Telefone: 912345654</a></li>
+	</ul>
+	</div>
+
+	<div class="footer-column">
+	<h3>Newsletter</h3>
+	<p>Acompanhe todas as<br>novidades da nossa empresa</p>
+	<form class="newsletter-form">
+		<input type="email" placeholder="Endereço de e-mail" required>
+		<button type="submit">➤</button>
+	</form>
+	</div>
+</footer>
+</body>
+</html>

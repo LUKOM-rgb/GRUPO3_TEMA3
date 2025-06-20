@@ -1,0 +1,62 @@
+[
+  {
+    "pergunta": "Tres Cantos: Que característica urbana distingue esta cidade moderna?",
+    "opcoes": ["Foi construída no século XIX", "É uma cidade planejada dos anos 70", "Tem origem romana"],
+    "correta": "É uma cidade planejada dos anos 70"
+  },
+  {
+    "pergunta": "Manzanares el Real: Que monumento domina esta localidade?",
+    "opcoes": ["Castelo dos Mendoza", "Aqueduto romano", "Catedral gótica"],
+    "correta": "Castelo dos Mendoza"
+  },
+  {
+    "pergunta": "Cercedilla: Qual é o principal atrativo natural desta zona?",
+    "opcoes": ["Deserto de granito", "Reserva marinha", "Parque Nacional da Serra de Guadarrama"],
+    "correta": "Parque Nacional da Serra de Guadarrama"
+  },
+  {
+    "pergunta": "Segovia: Que construção romana é símbolo da cidade?",
+    "opcoes": ["Templo de Apolo", "Aqueduto de Segóvia", "Ponte de Alcântara"],
+    "correta": "Aqueduto de Segóvia"
+  },
+  {
+    "pergunta": "Santa María la Real de Nieva: O que destaca esta vila historicamente?",
+    "opcoes": ["Fundação real e convento gótico", "Minas de ouro", "Universidade medieval"],
+    "correta": "Fundação real e convento gótico"
+  },
+  {
+    "pergunta": "Coca: Que elemento arquitetónico impressiona nesta vila?",
+    "opcoes": ["Castelo mudéjar", "Torre Eiffel em miniatura", "Igreja subterrânea"],
+    "correta": "Castelo mudéjar"
+  },
+  {
+    "pergunta": "Medina del Campo: A cidade foi famosa no século XV por quê?",
+    "opcoes": ["Feiras comerciais internacionais", "Produção de sal", "Criação de cavalos"],
+    "correta": "Feiras comerciais internacionais"
+  },
+  {
+    "pergunta": "Toro: Qual destes vinhos é originário desta região?",
+    "opcoes": ["Albariño", "Tempranillo de Toro", "Cava"],
+    "correta": "Tempranillo de Toro"
+  },
+  {
+    "pergunta": "Zamora: Qual é o estilo arquitetónico predominante no seu centro histórico?",
+    "opcoes": ["Românico", "Barroco", "Neoclássico"],
+    "correta": "Românico"
+  },
+  {
+    "pergunta": "Granja de Moreruela: Este local é conhecido por quê?",
+    "opcoes": ["Ruínas do primeiro mosteiro cisterciense da Península", "Termas romanas", "Mercado medieval"],
+    "correta": "Ruínas do primeiro mosteiro cisterciense da Península"
+  },
+  {
+    "pergunta": "Benavente: Esta cidade tem importância histórica por quê?",
+    "opcoes": ["Foi residência dos Reis Católicos", "Foi sede de concelhos leoneses", "Tem o Castelo dos Condes de Benavente"],
+    "correta": "Tem o Castelo dos Condes de Benavente"
+  },
+  {
+    "pergunta": "Astorga: Que produto doce é típico desta cidade?",
+    "opcoes": ["Torrão de mel", "Chocolate artesanal", "Tarte de Santiago"],
+    "correta": "Chocolate artesanal"
+  }
+]

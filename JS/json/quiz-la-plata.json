@@ -1,0 +1,42 @@
+[
+  {
+    "pergunta": "Sevilha: Que edifício emblemático marca o início da Via de la Plata?",
+    "opcoes": ["Alcáçova de Sevilha", "Catedral de Sevilha", "Torre del Oro"],
+    "correta": "Catedral de Sevilha"
+  },
+  {
+    "pergunta": "Guillena: Qual é a principal característica desta primeira etapa?",
+    "opcoes": ["Travessia de montanhas", "Percurso plano e rural", "Passagem pelo rio Minho"],
+    "correta": "Percurso plano e rural"
+  },
+  {
+    "pergunta": "Zafra: Como é apelidada esta cidade?",
+    "opcoes": ["Cidade Branca", "Pequena Sevilha", "Cidade dos Palácios"],
+    "correta": "Pequena Sevilha"
+  },
+  {
+    "pergunta": "Mérida: Que famosa construção romana se encontra aqui?",
+    "opcoes": ["Anfiteatro", "Aqueduto", "Circo Romano"],
+    "correta": "Anfiteatro"
+  },
+  {
+    "pergunta": "Cáceres: O centro histórico é classificado como…?",
+    "opcoes": ["Património Mundial da UNESCO", "Monumento Nacional", "Reserva Natural"],
+    "correta": "Património Mundial da UNESCO"
+  },
+  {
+    "pergunta": "Salamanca: Que universidade histórica aqui se encontra?",
+    "opcoes": ["Universidade de Madrid", "Universidade de Salamanca", "Universidade de León"],
+    "correta": "Universidade de Salamanca"
+  },
+  {
+    "pergunta": "Zamora: Qual é o estilo arquitetónico predominante nas suas igrejas?",
+    "opcoes": ["Gótico", "Barroco", "Românico"],
+    "correta": "Românico"
+  },
+  {
+    "pergunta": "Ourense: Que tradição termal é famosa nesta cidade?",
+    "opcoes": ["Banhos nas águas termais junto ao rio Minho", "Festas de São Tiago", "Degustação de vinho verde"],
+    "correta": "Banhos nas águas termais junto ao rio Minho"
+  }
+]

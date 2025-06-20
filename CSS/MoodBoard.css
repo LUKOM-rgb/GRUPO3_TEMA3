@@ -1,0 +1,15 @@
+#wordCloud {
+	margin-top: 20px;
+	padding: 10px;
+}
+#wordCloud span {
+	margin: 5px;
+	display: inline-block;
+	transition: all 0.3s ease;
+}
+#wordCloud-section {
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-top: 40px;
+}

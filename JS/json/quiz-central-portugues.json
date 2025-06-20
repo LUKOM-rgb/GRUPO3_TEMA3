@@ -1,0 +1,67 @@
+[
+  {
+    "pergunta": "Santarém: Qual é o estilo arquitetónico predominante nas suas igrejas?",
+    "opcoes": ["Gótico", "Barroco", "Manuelino"],
+    "correta": "Gótico"
+  },
+  {
+    "pergunta": "Tomar: Que famoso convento, Património Mundial da UNESCO, se encontra nesta cidade?",
+    "opcoes": ["Convento de Santa Clara", "Convento de Cristo", "Convento da Arrábida"],
+    "correta": "Convento de Cristo"
+  },
+  {
+    "pergunta": "Coimbra: Qual é a universidade mais antiga de Portugal localizada aqui?",
+    "opcoes": ["Universidade do Porto", "Universidade de Lisboa", "Universidade de Coimbra"],
+    "correta": "Universidade de Coimbra"
+  },
+  {
+    "pergunta": "Porto: Que famoso monumento ou ponte liga o centro à zona de Gaia?",
+    "opcoes": ["Ponte 25 de Abril", "Ponte D. Luís I", "Ponte Vasco da Gama"],
+    "correta": "Ponte D. Luís I"
+  },
+  {
+    "pergunta": "Barcelos: O que simboliza o famoso 'Galo de Barcelos'?",
+    "opcoes": ["Justiça e milagre", "Guerra e vitória", "Tradição marítima"],
+    "correta": "Justiça e milagre"
+  },
+  {
+    "pergunta": "Ponte de Lima: Qual é uma das principais atrações da vila?",
+    "opcoes": ["Praia fluvial e a ponte romana", "Castelo da Feira", "Templo romano"],
+    "correta": "Praia fluvial e a ponte romana"
+  },
+  {
+    "pergunta": "Valença: Que estrutura fortificada domina a cidade?",
+    "opcoes": ["Castelo medieval", "Fortaleza abaluartada", "Mosteiro beneditino"],
+    "correta": "Fortaleza abaluartada"
+  },
+  {
+    "pergunta": "Tui: O que marca a entrada dos peregrinos em Espanha?",
+    "opcoes": ["Catedral de Tui", "Rio Minho", "Plaza Mayor"],
+    "correta": "Rio Minho"
+  },
+  {
+    "pergunta": "O Porriño: Qual é a principal característica do centro urbano?",
+    "opcoes": ["Arquitetura modernista de Antonio Palacios", "Ruas medievais intactas", "Castelo defensivo"],
+    "correta": "Arquitetura modernista de Antonio Palacios"
+  },
+  {
+    "pergunta": "Redondela: Qual é o nome da famosa ponte ferroviária visível da cidade?",
+    "opcoes": ["Ponte Eiffel", "Ponte Rande", "Viaduto Madrid"],
+    "correta": "Viaduto Madrid"
+  },
+  {
+    "pergunta": "Pontevedra: Qual é o símbolo do centro histórico da cidade?",
+    "opcoes": ["Praça dos Galegos", "Santuario da Peregrina", "Catedral de São Tiago"],
+    "correta": "Santuario da Peregrina"
+  },
+  {
+    "pergunta": "Caldas de Reis: Pelo que são conhecidas as águas da cidade?",
+    "opcoes": ["Águas termais", "Águas medicinais com sais", "Fonte da juventude"],
+    "correta": "Águas termais"
+  },
+  {
+    "pergunta": "Padrón: Que famoso escritor galego tem ligação à cidade?",
+    "opcoes": ["Rosalía de Castro", "Miguel de Cervantes", "Federico García Lorca"],
+    "correta": "Rosalía de Castro"
+  }
+]

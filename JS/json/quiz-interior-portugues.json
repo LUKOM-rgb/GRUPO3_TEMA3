@@ -1,0 +1,67 @@
+[
+  {
+    "pergunta": "Viseu: Que figura histórica lendária está fortemente ligada à cidade?",
+    "opcoes": ["D. Afonso Henriques", "Viriato", "Inês de Castro"],
+    "correta": "Viriato"
+  },
+  {
+    "pergunta": "Castro Daire: Qual elemento natural é muito associado à região?",
+    "opcoes": ["A Serra do Caramulo", "As Termas de São Pedro do Sul", "O rio Zêzere"],
+    "correta": "As Termas de São Pedro do Sul"
+  },
+  {
+    "pergunta": "Lamego: Qual é o famoso santuário com uma escadaria monumental?",
+    "opcoes": ["Santuário de Nossa Senhora dos Remédios", "Santuário do Bom Jesus", "Santuário de Fátima"],
+    "correta": "Santuário de Nossa Senhora dos Remédios"
+  },
+  {
+    "pergunta": "Peso da Régua: A cidade é considerada o coração de qual região vinícola?",
+    "opcoes": ["Dão", "Vinho Verde", "Douro"],
+    "correta": "Douro"
+  },
+  {
+    "pergunta": "Vila Real: Qual é o palácio emblemático que pode ser visitado nos arredores?",
+    "opcoes": ["Palácio de Queluz", "Palácio da Brejoeira", "Palácio de Mateus"],
+    "correta": "Palácio de Mateus"
+  },
+  {
+    "pergunta": "Chaves: Que tipo de ponte romana famosa existe nesta cidade?",
+    "opcoes": ["Ponte da Ribeira", "Ponte de Trajano", "Ponte do Infante"],
+    "correta": "Ponte de Trajano"
+  },
+  {
+    "pergunta": "Verín: A que país pertence esta localidade?",
+    "opcoes": ["Portugal", "Espanha", "França"],
+    "correta": "Espanha"
+  },
+  {
+    "pergunta": "Xinzo de Limia: É conhecida por um famoso carnaval. Como se chama?",
+    "opcoes": ["Entroido", "San Fermín", "Carnaval Galego"],
+    "correta": "Entroido"
+  },
+  {
+    "pergunta": "Ourense: O que é característico das Burgas?",
+    "opcoes": ["Fontes termais de água quente", "Fontes de vinho", "Monumentos celtas"],
+    "correta": "Fontes termais de água quente"
+  },
+  {
+    "pergunta": "Cea: Que produto tradicional é protegido com IGP (Indicação Geográfica Protegida)?",
+    "opcoes": ["Vinho Albariño", "Pão de Cea", "Queijo Tetilla"],
+    "correta": "Pão de Cea"
+  },
+  {
+    "pergunta": "Dozón: Em que província espanhola se encontra?",
+    "opcoes": ["Ourense", "Pontevedra", "Lugo"],
+    "correta": "Pontevedra"
+  },
+  {
+    "pergunta": "Silleda: Qual evento de destaque se realiza aqui anualmente?",
+    "opcoes": ["Feira Internacional de Turismo", "Feira da Agricultura (Semana Verde)", "Festival Celta"],
+    "correta": "Feira da Agricultura (Semana Verde)"
+  },
+  {
+    "pergunta": "A Estrada: A localidade é conhecida pela criação de quê?",
+    "opcoes": ["Gado bravo", "Cavalos lusitanos", "Galinhas de raça"],
+    "correta": "Galinhas de raça"
+  }
+]

@@ -1,0 +1,30 @@
+[
+	{
+		"title": "Chuvas Intensas Atingem os Caminhos de Santiago",
+		"category": "Clima",
+		"timestamp": 1749118234,
+		"description": "Chuvas intensas causam transtornos nos principais caminhos...",
+		"image": "/img/chuva.jpg"
+	},
+	{
+		"title": "Novo regulamento limitará uso de colunas de som no Caminho Francês",
+		"category": "Clima",
+		"timestamp": 1750064610,
+		"description": "Para preservar o ambiente de silêncio e espiritualidade, municípios espanhóis anunciam...",
+		"image": "/img/blutot.jpg"
+	},
+	{
+		"title": "Estudos confirmam que Caminhar aumenta a saúde",
+		"category": "Clima",
+		"timestamp": 1747579200,
+		"description": "Estudo publicado mostra que mais de 70% dos peregrinos...",
+		"image": "/img/hike.jpg"
+	},
+	{
+		"title": "Top 10 caminhos",
+		"category": "Guias",
+		"timestamp": 1717579200,
+		"description": "Os 10 percursos mais populares para peregrinos...",
+		"image": "/img/card-03.png"
+	}
+]

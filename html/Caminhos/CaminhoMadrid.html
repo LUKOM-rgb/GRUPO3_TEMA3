@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Caminho de Madrid</title>
+	<link rel="stylesheet" type="text/css" href="/CSS/Caminhos.css">
+</head>
+<body>
+	<nav>
+    <!-- Imagem do logotipo alinhada à esquerda -->
+    <a href="/index.html" class="logo-link">
+        <img src="/IMG/PeregrinoLogoCrop.png" alt="Logo Peregrino" class="nav-logo-img">
+    </a>
+
+    <!-- Container central para menu e botões -->
+    <div class="nav-center-container">
+        <p class="hidden">ignore</p>
+        <ul>
+            <li><a href="/HTML/caminhos.html">Caminhos</a></li>
+            <li><a href="/HTML/noticias.html">Notícias</a></li>
+            <li><a href="/HTML/Comunidade.html">Comunidade</a></li>
+			<li><a href="/HTML/quemsomos.html">Sobre</a></li>
+            <li><a href="/HTML/perfil.html">Perfil</a></li>
+        </ul>
+    </div>
+
+    <!-- Botões à direita -->
+    <div class="nav-btns">
+        <a class="active" href="/HTML/login.html"><button style="background: #C2A484;">Entrar</button></a>
+        <a class="active" href="/HTML/Registar.html"><button style="background: #2C8B57;">Registar</button></a>
+    </div>
+</nav>
+<script src="/JS/views/loginView.js"></script>
+<!----------------------NavBar---------------------------------------------------------->
+<div id="map-container">
+<div id="map">
+
+    <script src="/JS/models/CaminhosMapaModel/CaminhoMadridModel.js"></script>
+
+</div>
+	<h1 class="TituloCaminho"> Caminho de Madrid</h1>
+	<p class="descricao">O Caminho de Madrid parte da capital espanhola e
+		 liga-se ao Caminho Francês em Sahagún. É uma rota solitária e com
+		  menos infraestruturas, mas com paisagens variadas e o encanto das
+		  terras castelhanas. Ideal para quem procura tranquilidade, introspeção
+		   e a experiência de caminhar fora dos circuitos mais percorridos.
+
+
+
+</p>
+		<br>
+	<h1 class="caracteristicas"> Características:</h1>
+<table class="tabela-descrição">
+  <tr>
+    <td><strong>Ritmo:</strong> Intenso</td>
+    <td><strong>Alojamento:</strong> Albergues ou Pensões</td>
+    <td><strong>Orçamento:</strong> Médio</td>
+  </tr>
+  <tr>
+    <td><strong>Sustentabilidade:</strong> Alojamentos locais ou Mercados locais</td>
+    <td><strong>Companhia:</strong> Grupo ou Sozinho</td>
+    <td><strong>Objetivos:</strong> Superação pessoal ou Conexão espiritual</td>
+  </tr>
+  <tr>
+    <td><strong>Nº Máx. Dias:</strong> 23</td>
+    <td><strong>Distância:</strong> +/- 320 km</td>
+    <td><strong>Nº Etapas:</strong> 14</td>
+  </tr>
+</table>
+
+<a id="quiz-link" href="/html/quizes/caminho5.html"><button style="background: #2C8B57;">Quiz</button></a>
+<script src="/JS/views/quizButtonView.js"></script>
+<br>
+<br>
+<div class="review-container" id="review-container" data-page-id="caminho_madrid">
+    <h1 class="caracteristicas">Avaliações deste caminho</h1>
+    <div class="review-form">
+        <div id="login-message" class="login-message"></div>
+        <div class="star-rating">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+        </div>
+        <textarea id="review-comment" placeholder="Escreva seu comentário..."></textarea>
+        <button id="submit-review">Enviar Avaliação</button>
+    </div>
+    <div class="reviews-list" id="reviews-list">
+        <!-- Os comentários serão carregados aqui -->
+    </div>
+</div>
+<script src="/JS/models/ReviewModel.js"></script>
+<!-----------------Footer--------------------------------------------------------->
+<footer class="footer">
+	<div class="footer-column">
+		<ul>
+		<li><a href="#">Termos de Utilização</a></li>
+		<li><a href="#">Política de Privacidade e de Cookies</a></li>
+		<li><a href="#">Definição de privacidade e cookies</a></li>
+		</ul>
+		<p class="copyright">© 2025 PEREGRINO. Todos os direitos reservados</p>
+	</div>
+
+	<div class="footer-column">
+		<h3>Contacte-nos</h3>
+		<ul>
+		<li><a href="mailto:teste@gmail.com">E-mail: teste@gmail.com</a></li>
+		<li><a href="tel:912345654">Telefone: 912345654</a></li>
+		</ul>
+	</div>
+
+	<div class="footer-column">
+		<h3>Newsletter</h3>
+		<p>Acompanhe todas as<br>novidades da nossa empresa</p>
+		<form class="newsletter-form">
+		<input type="email" placeholder="Endereço de e-mail" required>
+		<button type="submit">➤</button>
+		</form>
+	</div>
+</footer>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCddu_AZ8qVfu3TV10H75wKrBoT5b542Ds&callback=initMap">
+</script>
+</body>
+</html>

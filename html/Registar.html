@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Criar Conta</title>
+<link rel="stylesheet" href="/CSS/registar.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <img src="/img/PeregrinoLogo.png" alt="Logo Peregrino" class="login-logo">
+
+        <div class="login-container">
+            <h1>Criar Conta</h1>
+            <input type="text" id="username" placeholder="Nome de Utilizador">
+            <input type="password" id="password" placeholder="Senha">
+            <input type="password" id="passwordRepeat" placeholder="Repetir Senha">
+            <button id="create-account">Criar Conta</button>
+            <p id="signup-message"></p>
+            <p class="register-link">Já tens conta? <a href="/html/login.html">Faz Login</a></p>
+        </div>
+
+        <!-- Botão de voltar adicionado aqui -->
+        <button class="botao-voltar" onclick="window.history.back()">
+            ← Voltar
+        </button>
+    </div>
+<script src="/JS/models/registerModel.js"></script>
+</body>
+</html>

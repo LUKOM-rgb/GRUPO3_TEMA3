@@ -1,0 +1,72 @@
+[
+  {
+    "pergunta": "Oviedo: Qual é o nome da catedral que marca o início do Caminho Primitivo?",
+    "opcoes": ["Catedral de São Tiago", "Catedral de San Salvador", "Catedral de León"],
+    "correta": "Catedral de San Salvador"
+  },
+  {
+    "pergunta": "Grado: Este local é famoso por um produto vendido em mercados tradicionais. Qual?",
+    "opcoes": ["Mel", "Queijo Cabrales", "Pão Asturiano"],
+    "correta": "Mel"
+  },
+  {
+    "pergunta": "Salas: Que edifício histórico marca presença no centro da vila?",
+    "opcoes": ["Castelo de Salas", "Catedral de Salas", "Palácio Real"],
+    "correta": "Castelo de Salas"
+  },
+  {
+    "pergunta": "Tineo: Esta localidade oferece belas vistas sobre quê?",
+    "opcoes": ["O Mar Cantábrico", "Montanhas asturianas", "Rio Sil"],
+    "correta": "Montanhas asturianas"
+  },
+  {
+    "pergunta": "Pola de Allande: Qual é o nome do passo montanhoso que liga a vila a La Mesa?",
+    "opcoes": ["Puerto de Acebo", "Alto del Palo", "Puerto de Pajares"],
+    "correta": "Alto del Palo"
+  },
+  {
+    "pergunta": "La Mesa: Qual é o traço marcante deste local?",
+    "opcoes": ["Tem um albergue medieval", "É uma aldeia de montanha isolada", "É famosa pela festa de São João"],
+    "correta": "É uma aldeia de montanha isolada"
+  },
+  {
+    "pergunta": "Grandas de Salime: Que atração está associada à vila?",
+    "opcoes": ["Museu Etnográfico", "Castelo medieval", "Mina de ouro romana"],
+    "correta": "Museu Etnográfico"
+  },
+  {
+    "pergunta": "Fonsagrada: O prato típico mais conhecido aqui é…?",
+    "opcoes": ["Fabada Asturiana", "Polbo á feira", "Butelo com casulas"],
+    "correta": "Butelo com casulas"
+  },
+  {
+    "pergunta": "O Cádavo: Qual é a vila mais próxima depois desta etapa?",
+    "opcoes": ["Lugo", "Melide", "Cea"],
+    "correta": "Lugo"
+  },
+  {
+    "pergunta": "Lugo: Que estrutura romana ainda rodeia a cidade?",
+    "opcoes": ["Muralha romana", "Aqueduto romano", "Termas romanas"],
+    "correta": "Muralha romana"
+  },
+  {
+    "pergunta": "San Romao da Retorta: Esta zona é um ponto importante por quê?",
+    "opcoes": ["Tem uma ponte romana", "É um antigo cruzamento de rotas", "Possui um mosteiro beneditino"],
+    "correta": "É um antigo cruzamento de rotas"
+  },
+  {
+    "pergunta": "Melide: Que prato típico é famoso entre os peregrinos aqui?",
+    "opcoes": ["Pulpo á feira", "Empanada galega", "Bacalhau à brás"],
+    "correta": "Pulpo á feira"
+  },
+  {
+    "pergunta": "Arzúa: Esta vila é conhecida por que tipo de queijo?",
+    "opcoes": ["Queijo da Serra", "Queijo Manchego", "Queijo Arzúa-Ulloa"],
+    "correta": "Queijo Arzúa-Ulloa"
+  },
+  {
+    "pergunta": "O Pedrouzo: Que nome tem o município ao qual pertence?",
+    "opcoes": ["Arzúa", "O Pino", "Melide"],
+    "correta": "O Pino"
+  }
+]

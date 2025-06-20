@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <script src="/JS/models/adminModel.js"></script>
+    <link rel="stylesheet" href="/CSS/admin.css">
+</head>
+<body>
+<div class="container">
+    <!-- Painel de Criação de Caminho (Novo) -->
+    <div class="painel painel-grande">
+        <h2>Criar Novo Caminho</h2>
+        <form id="form-caminho">
+            <div class="form-group">
+                <label for="nome">Nome do Caminho:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ritmo">Ritmo:</label>
+                <select id="ritmo" name="ritmo" required>
+                    <option value="leve">Leve</option>
+                    <option value="médio">Médio</option>
+                    <option value="intenso">Intenso</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="alojamento">Alojamento:</label>
+                <select id="alojamento" name="alojamento" required>
+                    <option value="albergues">Albergues</option>
+                    <option value="pensões">Pensões</option>
+                    <option value="hotel chique">Hotel chique</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="orcamento">Orçamento:</label>
+                <select id="orcamento" name="orcamento" required>
+                    <option value="baixo">Baixo</option>
+                    <option value="médio">Médio</option>
+                    <option value="alto">Alto</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="sustentabilidade">Sustentabilidade:</label>
+                <select id="sustentabilidade" name="sustentabilidade" required>
+                    <option value="comida biológica">Comida biológica</option>
+                    <option value="alojamentos locais">Alojamentos locais</option>
+                    <option value="mercados locais">Mercados locais</option>
+                    <option value="não me importo">Não me importo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="companhia">Companhia:</label>
+                <select id="companhia" name="companhia" required>
+                    <option value="sozinho">Sozinho</option>
+                    <option value="grupo">Grupo</option>
+                    <option value="casal">Casal</option>
+                    <option value="família">Família</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="objetivos">Objetivos:</label>
+                <select id="objetivos" name="objetivos" required>
+                    <option value="conexão espiritual">Conexão espiritual</option>
+                    <option value="cultura">Cultura</option>
+                    <option value="superação pessoal">Superação pessoal</option>
+                    <option value="descanso">Descanso</option>
+                    <option value="turismo consciente">Turismo consciente</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="duracaoDias">Duração (dias):</label>
+                <input type="number" id="duracaoDias" name="duracaoDias" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="etapas">Etapas (separadas por vírgula):</label>
+                <textarea id="etapas" name="etapas" required></textarea>
+                <p class="small-text">Exemplo: Lisboa, Santarém, Tomar, Coimbra, Porto</p>
+            </div>
+
+            <button type="button" onclick="criarNovoCaminhoInterativo()">Criar Caminho</button>
+        </form>
+    </div>
+
+    <div class="painel">
+        <h2>Perguntas Pendentes</h2>
+        <div id="admin-faq-container"></div>
+    </div>
+    <script src="/JS/models/adminQuestoes.js"></script>
+
+    <div class="painel">
+        <h2>Monitorização</h2>
+        <button onclick="verPreferencias()">Ver Preferências</button>
+        <button onclick="verNiveis()">Ver Níveis</button>
+        <button onclick="verBadges()">Ver Badges</button>
+        <button onclick="verPercentagem()">Ver Conquistas</button>
+        <div id="outputMonitorizacao" style="margin-top: 10px;"></div>
+    </div>
+
+    <div class="painel">
+        <h2>Utilizadores</h2>
+        <div id="listaUtilizadores"></div>
+    </div>
+</div>
+<script src="/JS/models/adminModel.js"></script>
+</body>
+</html>

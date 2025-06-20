@@ -1,0 +1,37 @@
+[
+  {
+    "pergunta": "Ferrol: Este porto galego é conhecido historicamente por quê?",
+    "opcoes": ["Indústria têxtil", "Estaleiros navais militares", "Minas de ouro"],
+    "correta": "Estaleiros navais militares"
+  },
+  {
+    "pergunta": "Neda: Qual destes produtos é tradicionalmente associado a esta localidade?",
+    "opcoes": ["Pão artesanal", "Queijo de cabra", "Vinho albariño"],
+    "correta": "Pão artesanal"
+  },
+  {
+    "pergunta": "Pontedeume: Que rio cruza esta vila charmosa?",
+    "opcoes": ["Rio Eume", "Rio Tambre", "Rio Miño"],
+    "correta": "Rio Eume"
+  },
+  {
+    "pergunta": "Betanzos: Esta cidade é especialmente famosa por qual iguaria?",
+    "opcoes": ["Tortilha cremosa", "Marisco grelhado", "Bolo de Santiago"],
+    "correta": "Tortilha cremosa"
+  },
+  {
+    "pergunta": "Bruma: Este local é conhecido por quê no Caminho Inglês?",
+    "opcoes": ["Antigo hospital de peregrinos", "Ruínas romanas", "Estação de comboios"],
+    "correta": "Antigo hospital de peregrinos"
+  },
+  {
+    "pergunta": "Sigüeiro: Que estrutura atravessam os peregrinos ao entrar nesta vila?",
+    "opcoes": ["Uma ponte medieval sobre o rio Tambre", "Um túnel escavado na montanha", "Uma passarela suspensa"],
+    "correta": "Uma ponte medieval sobre o rio Tambre"
+  },
+  {
+    "pergunta": "Santiago de Compostela: Que símbolo está associado aos peregrinos?",
+    "opcoes": ["Cruz templária", "Concha de vieira", "Espada de São Tiago"],
+    "correta": "Concha de vieira"
+  }
+]

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Caminhos</title>
+	<link rel="stylesheet" type="text/css" href="/CSS/Caminhos.css">
+</head>
+<body>
+	<nav>
+    <!-- Imagem do logotipo alinhada à esquerda -->
+    <a href="/index.html" class="logo-link">
+        <img src="/img/PeregrinoLogoCrop.png" alt="Logo Peregrino" class="nav-logo-img">
+    </a>
+
+    <!-- Container central para menu e botões -->
+    <div class="nav-center-container">
+        <p class="hidden">ignore</p>
+        <ul>
+            <li><a href="Caminhos.html">Caminhos</a></li>
+            <li><a href="Noticias.html">Notícias</a></li>
+            <li><a href="Comunidade.html">Comunidade</a></li>
+			<li><a href="QuemSomos.html">Sobre</a></li>
+            <li><a href="/html/perfil.html">Perfil</a></li>
+        </ul>
+    </div>
+
+    <!-- Botões à direita -->
+    <div class="nav-btns">
+        <a href="Login.html"><button style="background: #C2A484;">Entrar</button></a>
+        <a href="Registar.html"><button style="background: #2C8B57;">Registar</button></a>
+    </div>
+</nav>
+<script src="/JS/views/loginView.js"></script>
+	<img src="/img/caminhosHomeEdit.jpg" alt="Imagem Caminho de Santiago">
+
+<h1 class="h1-titulos">Os nossos caminhos:</h1>
+<div class="ordenacao-container">
+	<label for="ordenar-por">Ordenar por:</label>
+	<select id="ordenar-por" class="ordenacao-select">
+		<option value="padrao">Padrão</option>
+		<option value="etapas-asc">Nº Etapas (menor para maior)</option>
+		<option value="etapas-desc">Nº Etapas (maior para menor)</option>
+		<option value="duracao-asc">Duração (menor para maior)</option>
+		<option value="duracao-desc">Duração (maior para menor)</option>
+		<option value="rating-asc">Rating (menor para maior)</option>
+		<option value="rating-desc">Rating (maior para menor)</option>
+	</select>
+</div>
+<div class="cards-container">
+	<a href="/html/Caminhos/CaminhoDaCosta.html">
+	<div class="card card-um">
+	<div class="card-content">
+		<h2 class="card-title">Caminho da Costa</h2>
+		<div class="card-rating" data-caminho-id="caminho_costa">Carregando avaliação...</div>
+		<div class="card-location">Duração: 20 Dias</div>
+		<div class="card-date">Nº Etapas: 13</div>
+	</div>
+	</div>
+	</a>
+
+	<a href="/html/Caminhos/CaminhoFrancês.html">
+	<div class="card card-dois">
+	<div class="card-content">
+		<h2 class="card-title">Caminho Francês</h2>
+		<div class="card-rating" data-caminho-id="caminho_frances">Carregando avaliação...</div>
+		<div class="card-location">Duração: 30 Dias</div>
+		<div class="card-date">Nº Etapas: 14</div>
+	</div>
+	</div>
+	</a>
+
+	<a href="/html/Caminhos/CaminhoPortuguesCentral.html">
+	<div class="card card-tres">
+	<div class="card-content">
+		<h2 class="card-title">Caminho Português Central</h2>
+		<div class="card-rating" data-caminho-id="caminho_portugues_central">Carregando avaliação...</div>
+		<div class="card-location">Duração: 20 Dias</div>
+		<div class="card-date">Nº Etapas: 15</div>
+	</div>
+	</div>
+	</a>
+
+	<a href="/html/Caminhos/CaminhoPrimitivo.html">
+	<div class="card card-quatro">
+	<div class="card-content">
+		<h2 class="card-title">Caminho Primitivo</h2>
+		<div class="card-rating" data-caminho-id="caminho_primitivo">Carregando avaliação...</div>
+		<div class="card-location">Duração: 15 Dias</div>
+		<div class="card-date">Nº Etapas: 15</div>
+	</div>
+	</div>
+	</a>
+
+	<a href="/html/Caminhos/CaminhoPortuguesInterior.html">
+	<div class="card card-cinco">
+	<div class="card-content">
+		<h2 class="card-title">Caminho Português Interior</h2>
+		<div class="card-rating" data-caminho-id="caminho_portgues_interior">Carregando avaliação...</div>
+		<div class="card-location">Duração: 16 Dias</div>
+		<div class="card-date">Nº Etapas: 14</div>
+	</div>
+	</div>
+	</a>
+
+	<a href="/html/Caminhos/CaminhoIngles.html">
+	<div class="card card-seis">
+	<div class="card-content">
+		<h2 class="card-title">Caminho Inglês</h2>
+		<div class="card-rating" data-caminho-id="caminho_ingles">Carregando avaliação...</div>
+		<div class="card-location">Duração: 6 Dias</div>
+		<div class="card-date">Nº Etapas: 7</div>
+	</div>
+	</div>
+	</a>
+
+	<a href="/html/Caminhos/CaminhoFinisterraMuxia.html">
+	<div class="card card-sete">
+	<div class="card-content">
+		<h2 class="card-title">Caminho de Finisterra</h2>
+		<div class="card-rating" data-caminho-id="caminho_finisterra">Carregando avaliação...</div>
+		<div class="card-location">Duração: 4 Dias</div>
+		<div class="card-date">Nº Etapas: 6</div>
+	</div>
+	</div>
+	</a>
+
+	<a href="/html/Caminhos/CaminhoViadelaPlata.html">
+	<div class="card card-oito">
+	<div class="card-content">
+		<h2 class="card-title">Via de la Plata</h2>
+		<div class="card-rating" data-caminho-id="caminho_via_plata">Carregando avaliação...</div>
+		<div class="card-location">Duração: 40 Dias</div>
+		<div class="card-date">Nº Etapas: 9</div>
+	</div>
+	</div>
+	</a>
+
+	<a href="/html/Caminhos/CaminhoMadrid.html">
+	<div class="card card-nove">
+	<div class="card-content">
+		<h2 class="card-title">Caminho de Madrid</h2>
+		<div class="card-rating" data-caminho-id="caminho_madrid">Carregando avaliação...</div>
+		<div class="card-location">Duração: 23 Dias</div>
+		<div class="card-date">Nº Etapas: 14</div>
+	</div>
+	</div>
+	</a>
+</div>
+
+<h1 class="h1-programa">Descobre o caminho ideal para ti!</h1>
+
+	<div class="form-container">
+	<form id="form-preferencias" class="form-grid">
+		<div class="form-group">
+		<label for="ritmo">Ritmo:</label>
+		<select name="ritmo" id="ritmo">
+			<option value="leve">Leve</option>
+			<option value="médio">Médio</option>
+			<option value="intenso">Intenso</option>
+		</select>
+		</div>
+
+		<div class="form-group">
+		<label for="alojamento">Alojamento:</label>
+		<select name="alojamento" id="alojamento">
+			<option value="albergues">Albergues</option>
+			<option value="pensões">Pensões</option>
+			<option value="hotel">Hotel chique</option>
+		</select>
+		</div>
+
+		<div class="form-group">
+		<label for="orcamento">Orçamento:</label>
+		<select name="orcamento" id="orcamento">
+			<option value="baixo">Baixo</option>
+			<option value="médio">Médio</option>
+			<option value="alto">Alto</option>
+		</select>
+		</div>
+
+		<div class="form-group">
+		<label for="sustentabilidade">Sustentabilidade:</label>
+		<select name="sustentabilidade" id="sustentabilidade">
+			<option value="comida biológica">Comida biológica</option>
+			<option value="alojamentos locais">Alojamentos locais</option>
+			<option value="mercados locais">Mercados locais</option>
+			<option value="não me importo">Não me importo</option>
+		</select>
+		</div>
+
+		<div class="form-group">
+		<label for="companhia">Companhia:</label>
+		<select name="companhia" id="companhia">
+			<option value="sozinho">Sozinho</option>
+			<option value="grupo">Grupo</option>
+			<option value="casal">Casal</option>
+			<option value="família">Família</option>
+		</select>
+		</div>
+
+		<div class="form-group">
+		<label for="objetivos">Objetivos:</label>
+		<select name="objetivos" id="objetivos">
+			<option value="conexão espiritual">Conexão espiritual</option>
+			<option value="cultura">Cultura</option>
+			<option value="superação pessoal">Superação pessoal</option>
+			<option value="descanso">Descanso</option>
+			<option value="turismo consciente">Turismo consciente</option>
+		</select>
+		</div>
+
+		<div class="form-group">
+		<label for="maxDias">Máximo de Dias:</label>
+		<input type="number" name="maxDias" id="maxDias" min="1" max="60" required />
+		</div>
+
+		<div class="form-group">
+		<label for="pais">País:</label>
+		<select id="pais" name="pais">
+			<option value="">Escolhe um país</option>
+			<option value="Portugal">Portugal</option>
+			<option value="Espanha">Espanha</option>
+			<option value="França">França</option>
+		</select>
+		</div>
+
+		<div class="form-group">
+		<label for="zona">Zona:</label>
+		<select id="zona" name="zona">
+			<option value="">Escolhe uma zona</option>
+		</select>
+		</div>
+
+		<div class="form-group">
+		<label for="etapaInicio">Cidade ou etapa específica:</label>
+		<select id="cidade" name="etapaInicio">
+			<option value="">Escolhe uma cidade/etapa</option>
+		</select>
+		</div>
+
+		<div class="form-group full-width">
+		<button type="submit" class="form-btn">Descobrir Caminho Ideal</button>
+		</div>
+	</form>
+
+	<h2 id="resultado"></h2>
+	<div id="etapas"></div>
+</div>
+<script src="/JS/json/ListaCaminhosModel.json"></script>
+<script src="/JS/models/CaminhosModel.js"></script>
+<script>
+// Carrega caminhos personalizados do localStorage
+const caminhosPersonalizados = JSON.parse(localStorage.getItem('caminhosPersonalizados')) || [];
+
+// Adiciona os caminhos personalizados ao container de cards
+const container = document.querySelector('.cards-container');
+caminhosPersonalizados.forEach(caminho => {
+    const cardHTML = `
+    <a href="#">
+        <div class="card novo">
+            <div class="card-content">
+                <h2 class="card-title">${caminho.nome}</h2>
+                <div class="card-rating">Avaliação: --</div>
+                <div class="card-location">Duração: ${caminho.duracaoDias} Dias</div>
+                <div class="card-date">Nº Etapas: ${caminho.etapas.length}</div>
+            </div>
+        </div>
+    </a>
+    `;
+    container.insertAdjacentHTML('beforeend', cardHTML);
+});
+</script>
+<!-----------------Footer--------------------------------------------------------->
+<footer class="footer">
+	<div class="footer-column">
+		<ul>
+		<li><a href="#">Termos de Utilização</a></li>
+		<li><a href="#">Política de Privacidade e de Cookies</a></li>
+		<li><a href="#">Definição de privacidade e cookies</a></li>
+		</ul>
+		<p class="copyright">© 2025 PEREGRINO. Todos os direitos reservados</p>
+	</div>
+
+	<div class="footer-column">
+		<h3>Contacte-nos:</h3>
+		<ul>
+		<li><a href="mailto:teste@gmail.com">E-mail: geralperegrino@gmail.com</a></li>
+		<li><a href="tel:912345654">Telefone: 915318008</a></li>
+		</ul>
+	</div>
+
+	<div class="footer-column">
+		<h3>Newsletter</h3>
+		<p>Acompanhe todas as<br>novidades da nossa empresa</p>
+		<form class="newsletter-form">
+		<input type="email" placeholder="Endereço de e-mail" required>
+		<button type="submit">➤</button>
+		</form>
+	</div>
+</footer>
+<script src="/JS/models/CaminhosModel.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+[
+	{
+		"nome": "Caminho Francês",
+		"ritmo": "médio",
+		"alojamento": ["albergues", "pensões"],
+		"orcamento": "médio",
+		"sustentabilidade": ["alojamentos locais", "mercados locais"],
+		"companhia": ["grupo", "sozinho"],
+		"objetivos": ["superação pessoal", "cultura"],
+		"duracaoDias": 30,
+		"etapas": [
+			"Saint-Jean-Pied-de-Port", "Roncesvalles", "Pamplona", "Logroño", "Burgos",
+			"León", "Astorga", "Ponferrada", "O Cebreiro", "Sarria", "Portomarín",
+			"Palas de Rei", "Arzúa", "Santiago de Compostela"
+		],
+		"localizacoes": {
+			"França": {
+				"Aquitânia": ["Saint-Jean-Pied-de-Port"]
+			},
+			"Espanha": {
+				"Navarra": ["Roncesvalles", "Pamplona"],
+				"La Rioja": ["Logroño"],
+				"Castela e Leão": ["Burgos", "León", "Astorga", "Ponferrada"],
+				"Galiza": ["O Cebreiro", "Sarria", "Portomarín", "Palas de Rei", "Arzúa", "Santiago de Compostela"]
+			}
+		}
+	},
+	{
+		"nome": "Caminho Português Central",
+		"ritmo": "leve",
+		"alojamento": ["pensões", "hotel"],
+		"orcamento": "alto",
+		"sustentabilidade": ["comida biológica", "alojamentos locais"],
+		"companhia": ["casal", "família"],
+		"objetivos": ["descanso", "turismo consciente"],
+		"duracaoDias": 20,
+		"etapas": [
+			"Lisboa", "Santarém", "Tomar", "Coimbra", "Porto", "Barcelos",
+			"Ponte de Lima", "Valença", "Tui", "O Porriño", "Redondela",
+			"Pontevedra", "Caldas de Reis", "Padrón", "Santiago de Compostela"
+		],
+		"localizacoes": {
+			"Portugal": {
+				"Centro": ["Lisboa", "Santarém", "Tomar", "Coimbra"],
+				"Norte": ["Porto", "Barcelos", "Ponte de Lima", "Valença"]
+			},
+			"Espanha": {
+				"Galiza": ["Tui", "O Porriño", "Redondela", "Pontevedra", "Caldas de Reis", "Padrón", "Santiago de Compostela"]
+			}
+		}
+	},
+	{
+		"nome": "Caminho da Costa",
+		"ritmo": "leve",
+		"alojamento": ["pensões", "hotel"],
+		"orcamento": "alto",
+		"sustentabilidade": ["comida biológica"],
+		"companhia": ["casal", "família"],
+		"objetivos": ["descanso", "turismo consciente"],
+		"duracaoDias": 20,
+		"etapas": [
+			"Porto", "Vila do Conde", "Viana do Castelo", "Caminha",
+			"A Guarda", "Oia", "Baiona", "Vigo", "Redondela",
+			"Pontevedra", "Caldas de Reis", "Padrón", "Santiago de Compostela"
+		],
+		"localizacoes": {
+			"Portugal": {
+				"Norte": ["Porto", "Vila do Conde", "Viana do Castelo", "Caminha"]
+			},
+			"Espanha": {
+				"Galiza": ["A Guarda", "Oia", "Baiona", "Vigo", "Redondela", "Pontevedra", "Caldas de Reis", "Padrón", "Santiago de Compostela"]
+			}
+		}
+	},
+	{
+		"nome": "Caminho Primitivo",
+		"ritmo": "médio",
+		"alojamento": ["albergues", "pensões"],
+		"orcamento": "médio",
+		"sustentabilidade": ["não me importo"],
+		"companhia": ["sozinho"],
+		"objetivos": ["superação pessoal", "conexão espiritual"],
+		"duracaoDias": 15,
+		"etapas": [
+			"Oviedo", "Grado", "Salas", "Tineo", "Pola de Allande", "La Mesa", "Grandas de Salime",
+			"Fonsagrada", "O Cádavo", "Lugo", "San Romao da Retorta", "Melide", "Arzúa", "O Pedrouzo", "Santiago de Compostela"
+		],
+		"localizacoes": {
+			"Espanha": {
+				"Astúrias": ["Oviedo", "Grado", "Salas", "Tineo", "Pola de Allande", "La Mesa", "Grandas de Salime"],
+				"Galiza": ["Fonsagrada","O Cádavo", "Lugo", "San Romao da Retorta", "Melide", "Arzúa", "O Pedrouzo", "Santiago de Compostela"]
+			}
+		}
+	},
+	{
+		"nome": "Caminho Português Interior",
+		"ritmo": "leve",
+		"alojamento": ["albergues", "pensões"],
+		"orcamento": "baixo",
+		"sustentabilidade": ["alojamentos locais", "mercados locais"],
+		"companhia": ["grupo"],
+		"objetivos": ["cultura", "descanso"],
+		"duracaoDias": 16,
+		"etapas": [
+			"Viseu", "Castro Daire", "Lamego", "Peso da Régua", "Vila Real", "Chaves", "Verín", "Xinzo de Limia",
+			"Ourense", "Cea", "Dozón", "Silleda", "A Estrada", "Santiago de Compostela"],
+		"localizacoes": {
+			"Portugal": {
+				"Centro": ["Viseu", "Castro Daire", "Lamego", "Peso da Régua"],
+				"Norte": ["Vila Real", "Chaves"]
+			},
+			"Espanha": {
+				"Galiza": ["Xinzo de Limia","Ourense", "Cea", "Dozón", "Silleda", "A Estrada", "Santiago de Compostela"]
+			}
+		}
+	},
+	{
+		"nome": "Caminho Inglês",
+		"ritmo": "médio",
+		"alojamento": ["pensões", "hotel"],
+		"orcamento": "médio",
+		"sustentabilidade": ["não me importo"],
+		"companhia": ["casal"],
+		"objetivos": ["descanso", "turismo consciente"],
+		"duracaoDias": 6,
+		"etapas": [
+			"Ferrol", "Neda", "Pontedeume", "Betanzos", "Bruma", "Sigüeiro", "Santiago de Compostela"
+		],
+		"localizacoes": {
+			"Espanha": {
+				"Galiza": ["Ferrol", "Neda", "Pontedeume", "Betanzos", "Bruma", "Sigüeiro", "Santiago de Compostela"]
+			}
+		}
+	},
+	{
+		"nome": "Caminho de Finisterra",
+		"ritmo": "leve",
+		"alojamento": ["albergues", "pensões"],
+		"orcamento": "baixo",
+		"sustentabilidade": ["mercados locais"],
+		"companhia": ["sozinho"],
+		"objetivos": ["conexão espiritual", "turismo consciente"],
+		"duracaoDias": 4,
+		"etapas": [
+			"Muxía","Fisterra","Cee","Olveiroa","Negreira","Santiago de Compostela"
+		],
+		"localizacoes": {
+			"Espanha": {
+				"Galiza": ["Muxía","Fisterra","Cee","Olveiroa","Negreira","Santiago de Compostela"]
+			}
+		}
+	},
+	{
+		"nome": "Via de la Plata",
+		"ritmo": "intenso",
+		"alojamento": ["albergues", "pensões"],
+		"orcamento": "baixo",
+		"sustentabilidade": ["alojamentos locais"],
+		"companhia": ["grupo", "sozinho"],
+		"objetivos": ["superação pessoal", "cultura"],
+		"duracaoDias": 40,
+		"etapas": [
+			"Sevilha", "Guillena", "Zafra", "Mérida", "Cáceres", "Salamanca", "Zamora", "Ourense", "Santiago de Compostela"
+		],
+		"localizacoes": {
+			"Espanha": {
+				"Andaluzia": ["Sevilha", "Guillena"],
+				"Estremadura": ["Zafra","Mérida", "Cáceres"],
+				"Castela e Leão": ["Salamanca", "Zamora"],
+				"Galiza": ["Ourense"]
+			}
+		}
+	},
+	{
+		"nome": "Caminho de Madrid",
+		"ritmo": "intenso",
+		"alojamento": ["albergues", "pensões"],
+		"orcamento": "baixo",
+		"sustentabilidade": ["não me importo"],
+		"companhia": ["sozinho"],
+		"objetivos": ["superação pessoal", "conexão espiritual"],
+		"duracaoDias": 23,
+		"etapas": [
+			"Madrid", "Tres Cantos", "Manzanares el Real", "Cercedilla", "Segovia", "Santa María la Real de Nieva",
+			"Coca", "Medina del Campo", "Toro", "Zamora", "Granja de Moreruela", "Benavente", "Astorga", "Santiago de Compostela"
+		],
+		"localizacoes": {
+			"Espanha": {
+			"Comunidade de Madrid": ["Madrid", "Tres Cantos", "Manzanares el Real", "Cercedilla"],
+			"Castela e Leão": [
+				"Segovia", "Santa María la Real de Nieva", "Coca", "Medina del Campo",
+				"Toro", "Zamora", "Granja de Moreruela", "Benavente", "Astorga"
+			]
+			}
+		}
+	}
+
+]

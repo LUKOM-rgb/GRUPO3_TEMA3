@@ -1,0 +1,32 @@
+[
+	{
+	"pergunta": "Muxía: Qual é o famoso santuário à beira-mar nesta localidade?",
+	"opcoes": ["Santuário da Virxe da Barca", "Santuário do Monte do Gozo", "Santuário de Fátima"],
+	"correta": "Santuário da Virxe da Barca"
+	},
+	{
+	"pergunta": "Fisterra: Qual é o nome do cabo onde termina simbolicamente o Caminho?",
+	"opcoes": ["Cabo Espichel", "Cabo da Roca", "Cabo Finisterra"],
+	"correta": "Cabo Finisterra"
+	},
+	{
+	"pergunta": "Cee: Que tipo de edifício antigo é um dos destaques da cidade?",
+	"opcoes": ["Mosteiro medieval", "Hospital de peregrinos", "Forte romano"],
+	"correta": "Hospital de peregrinos"
+	},
+	{
+	"pergunta": "Olveiroa: Esta aldeia é conhecida por quê?",
+	"opcoes": ["Aeroporto internacional", "Antigos celeiros e arquitetura rural", "Grande porto marítimo"],
+	"correta": "Antigos celeiros e arquitetura rural"
+	},
+	{
+	"pergunta": "Negreira: Que estrutura histórica os peregrinos atravessam ao entrar na vila?",
+	"opcoes": ["Ponte medieval", "Aqueduto romano", "Túnel subterrâneo"],
+	"correta": "Ponte medieval"
+	},
+	{
+	"pergunta": "Santiago de Compostela: Qual é o nome da praça principal diante da catedral?",
+	"opcoes": ["Praça das Catedrais", "Praça do Obradoiro", "Praça de Compostela"],
+	"correta": "Praça do Obradoiro"
+	}
+]

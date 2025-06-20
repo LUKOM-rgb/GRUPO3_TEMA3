@@ -1,0 +1,321 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: white;
+}
+
+.hidden {
+	opacity: 0;
+	user-select: none;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	margin: 40px 0 20px;
+}
+
+#wordCloud-section,
+#faq-section {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-top: 2px solid #ccc;
+}
+
+#faq-section h2 {
+	color: #2C8B57;
+}
+
+#faq-container h3 {
+	margin: 10px;
+	color: #333;
+}
+
+#faq-container p {
+	margin: 0 0 15px;
+	display: block;
+}
+
+h2 {
+  margin-bottom: 1em;
+  color: #2C8B57;
+}
+
+#wordCloud-section span {
+	margin: 0 0.125em 0 0.125em;
+}
+
+#cloud-form {
+	padding-bottom: 2em;
+}
+
+#faq-form {
+	padding-top: 2em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    gap: 40px; /* Espaço entre logotipo e conteúdo central */
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+img{
+	width: 100%;
+	display: block;
+}
+
+#faq-section {
+	border-top: 2px solid #ccc;
+}
+
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-link:hover {
+    opacity: 0.9;
+    transition: opacity 0.2s ease;
+}
+
+a {
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.nav-logo-img {
+    height: 50px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.nav-center-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+	font-family: Inter;
+	font-style: normal;
+}
+
+nav ul {
+    display: flex;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+li a {
+	color: #18191F;
+	padding: 14px;
+	text-decoration: none;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+
+li a:hover {
+	color: #C2A484;
+}
+
+
+button {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 6px;
+	margin-right: 14px;
+	margin-left: 14px;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	height: min-content;
+
+}
+
+button:hover {
+	color: #18191F;
+}
+
+.nav-btns {
+    display: flex;
+    gap: 12px;
+    margin-left: auto; /* Empurra para a direita */
+}
+
+.nav-btns button {
+	padding: 14px 16px;
+	border-radius: 6px;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	border: none;
+	cursor: pointer;
+	margin: 0 14px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cores dos botões */
+.nav-btns button:first-child {
+	background-color: #C2A484;
+}
+
+.nav-btns button:last-child {
+	background-color: #2C8B57;
+}
+
+
+.nav-btns button:hover {
+	opacity: 0.8;
+	color: #18191F;
+}
+
+
+.nav-btns button:active {
+	margin: 0 14px;
+	transform: scale(0.97);
+	outline: none;
+}
+
+h2 {
+	text-align: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+h3 {
+	font-family: Inter;
+	font-style: normal;
+}
+
+#wordCloud {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+#wordCloud span {
+  display: inline-block;
+  word-break: break-word;
+}
+
+/*------------Footer-----------------------*/
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #318255;
+	color: white;
+	padding: 40px;
+	flex-wrap: wrap;
+}
+
+.footer-column {
+	flex: 1;
+	min-width: 250px;
+	margin: 10px;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+	color: #2C8B57;
+}
+
+.footer-column h3 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.footer-column ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-column ul li {
+	margin-bottom: 8px;
+	font-size: 16px;
+}
+
+.footer-column ul li a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+	color: rgb(194, 164, 132);
+}
+
+.footer-column p {
+	margin: 10px 0;
+}
+
+.newsletter-form {
+	display: flex;
+	margin-top: 10px;
+}
+
+.newsletter-form input[type="email"] {
+	padding: 8px;
+	border: none;
+	border-radius: 4px 0 0 4px;
+	outline: none;
+	width: 70%;
+}
+
+.newsletter-form button {
+	padding: 8px 12px;
+	border: none;
+	background-color: #2b6b47;
+	color: white;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+}
+
+.newsletter-form button:hover {
+	background-color: #24593c;
+}
+
+@media (max-width: 768px) {
+	.footer {
+		flex-direction: column;
+	}
+}

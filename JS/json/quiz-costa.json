@@ -1,0 +1,57 @@
+[
+  {
+    "pergunta": "Vila do Conde: Qual é o famoso mosteiro que se encontra nesta cidade?",
+    "opcoes": ["Mosteiro de Santa Clara", "Mosteiro de Tibães", "Mosteiro dos Jerónimos"],
+    "correta": "Mosteiro de Santa Clara"
+  },
+  {
+    "pergunta": "Viana do Castelo: Como se chama o santuário que domina a cidade no alto do monte?",
+    "opcoes": ["Santuário do Sameiro", "Santuário de Santa Luzia", "Santuário de Fátima"],
+    "correta": "Santuário de Santa Luzia"
+  },
+  {
+    "pergunta": "Caminha: Que rio marca a fronteira entre Portugal e Espanha aqui?",
+    "opcoes": ["Rio Douro", "Rio Minho", "Rio Lima"],
+    "correta": "Rio Minho"
+  },
+  {
+    "pergunta": "A Guarda: Qual é o nome do monte onde se encontram ruínas celtas nesta localidade?",
+    "opcoes": ["Monte Aloia", "Monte Santa Tecla", "Monte Faro"],
+    "correta": "Monte Santa Tecla"
+  },
+  {
+    "pergunta": "Oia: Qual é o nome do antigo mosteiro à beira-mar em Oia?",
+    "opcoes": ["Mosteiro de Oia", "Mosteiro de San Xusto", "Mosteiro de Poio"],
+    "correta": "Mosteiro de Oia"
+  },
+  {
+    "pergunta": "Baiona: Que famoso evento histórico aconteceu aqui em 1493?",
+    "opcoes": ["Chegada de Colombo da América", "Batalha de Rande", "Descobrimento das Ilhas Canárias"],
+    "correta": "Chegada de Colombo da América"
+  },
+  {
+    "pergunta": "Vigo: Como se chama o bairro antigo com ruas estreitas e vida noturna vibrante?",
+    "opcoes": ["Casco Vello", "Barrio Gótico", "Rúa Nova"],
+    "correta": "Casco Vello"
+  },
+  {
+    "pergunta": "Redondela: Redondela é conhecida por que tipo de estrutura ferroviária visível na cidade?",
+    "opcoes": ["Aqueduto romano", "Ponte ferroviária", "Viaduto duplo"],
+    "correta": "Viaduto duplo"
+  },
+  {
+    "pergunta": "Pontevedra: O centro histórico de Pontevedra é famoso por ser...",
+    "opcoes": ["Moderno e cheio de arranha-céus", "Um dos melhores preservados da Galiza", "Totalmente destruído na guerra"],
+    "correta": "Um dos melhores preservados da Galiza"
+  },
+  {
+    "pergunta": "Caldas de Reis: Esta cidade é famosa pelas suas...",
+    "opcoes": ["Arenas de touros", "Águas termais", "Montanhas nevadas"],
+    "correta": "Águas termais"
+  },
+  {
+    "pergunta": "Padrón: Diz-se que aqui chegou o corpo de que santo por barco?",
+    "opcoes": ["Santo António", "São Tiago", "São João"],
+    "correta": "São Tiago"
+  }
+]

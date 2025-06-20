@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="/CSS/Login.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <img src="/img/PeregrinoLogo.png" alt="Logo Peregrino" class="login-logo">
+
+        <div class="login-container">
+            <h1>Bem-Vindo de Volta!</h1>
+            <input type="text" id="username" placeholder="Nome de Utilizador">
+            <input type="password" id="password" placeholder="Senha">
+            <button id="entrar">Entrar</button>
+            <p id="login-message"></p>
+            <p class="register-link">Não tens conta? <a href="/html/registar.html">Criar conta</a></p>
+        </div>
+
+        <!-- Botão de voltar movido para aqui e dentro da login-wrapper -->
+        <button class="botao-voltar" onclick="window.history.back()">
+            ← Voltar
+        </button>
+    </div>
+
+    <script src="/JS/models/loginModel.js"></script>
+</body>
+</html>

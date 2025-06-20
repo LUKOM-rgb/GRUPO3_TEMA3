@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Caminho Francês</title>
+  <link rel="stylesheet" href="/CSS/quiz.css">
+  <script src="/JS/models/quizz.js"></script>
+    <script src="/JS/models/registerModel.js"></script>
+</head>
+<body>
+  <nav>
+    <!-- Imagem do logo alinhada à esquerda -->
+    <a href="/index.html" class="logo-link">  <!-- Altere para a página que deseja -->
+        <img src="/img/PeregrinoLogoCrop.png" alt="Logo Peregrino" class="nav-logo-img">
+    </a>
+
+    <!-- Container central para menu e botões -->
+    <div class="nav-center-container">
+        <p class="hidden">ignore</p>
+        <ul>
+            <li><a href="/html/Caminhos.html">Caminhos</a></li>
+            <li><a href="/html/Noticias.html">Notícias</a></li>
+            <li><a href="/html/Comunidade.html">Comunidade</a></li>
+			      <li><a href="/html/QuemSomos.html">Sobre</a></li>
+            <li><a href="/html/perfil.html">Perfil</a></li>
+        </ul>
+    </div>
+
+    <!-- Botões à direita -->
+    <div class="nav-btns">
+        <a href="/html/Login.html"><button style="background: #C2A484;">Entrar</button></a>
+        <a href="/html/Registar.html"><button style="background: #2C8B57;">Registar</button></a>
+    </div>
+</nav>
+<script src="/JS/views/loginView.js"></script>
+    <h1>Quiz: Concluíste o Caminho Francês?</h1>
+  <form id="quizForm">
+    <div id="quiz"></div>
+    <button type="submit">Verificar Respostas</button>
+  </form>
+  <div id="resultado"></div>
+
+  <script>
+    const perguntas = [
+      {
+        pergunta: "Saint-Jean-Pied-de-Port: Esta cidade está localizada em que região francesa?",
+        opcoes: ["Provença", "Aquitânia", "Normandia"],
+        correta: "Aquitânia"
+      },
+      {
+        pergunta: "Roncesvalles: O que é especialmente famoso neste local para os peregrinos?",
+        opcoes: ["Um castelo templário", "Uma batalha lendária e um mosteiro", "Uma ponte romana"],
+        correta: "Uma batalha lendária e um mosteiro"
+      },
+      {
+        pergunta: "Pamplona: Qual é o evento mundialmente famoso realizado nesta cidade?",
+        opcoes: ["Tourada de Sevilha", "Festa de San Fermín e Corrida de Touros", "Carnaval Basco"],
+        correta: "Festa de San Fermín e Corrida de Touros"
+      },
+      {
+        pergunta: "Logroño: Esta cidade está no coração de qual região vinícola?",
+        opcoes: ["Rioja", "Ribera del Duero", "Catalunha"],
+        correta: "Rioja"
+      },
+      {
+        pergunta: "Burgos: Qual é a atração mais icónica da cidade?",
+        opcoes: ["Aqueduto romano", "Catedral gótica de Burgos", "Castelo medieval destruído"],
+        correta: "Catedral gótica de Burgos"
+      },
+      {
+        pergunta: "León: Que famoso edifício modernista se encontra aqui, projetado por Gaudí?",
+        opcoes: ["Casa Batlló", "Casa de los Botines", "Sagrada Família"],
+        correta: "Casa de los Botines"
+      },
+      {
+        pergunta: "Astorga: Que tipo de edifício projetado por Gaudí existe nesta cidade?",
+        opcoes: ["Paço episcopal", "Palácio real", "Estação de comboios"],
+        correta: "Paço episcopal"
+      },
+      {
+        pergunta: "Ponferrada: Qual é o nome da fortaleza presente nesta cidade?",
+        opcoes: ["Castelo dos Templários", "Castelo de Santiago", "Alcáçova de León"],
+        correta: "Castelo dos Templários"
+      },
+      {
+        pergunta: "O Cebreiro: Que arquitetura típica se pode ver aqui?",
+        opcoes: ["Pallozas celtas", "Casas mouriscas", "Chalés suíços"],
+        correta: "Pallozas celtas"
+      },
+      {
+        pergunta: "Sarria: Por que razão muitos peregrinos começam aqui?",
+        opcoes: ["É o ponto mais bonito", "É onde está o marco dos últimos 100 km", "Tem uma estação de comboios"],
+        correta: "É onde está o marco dos últimos 100 km"
+      },
+      {
+        pergunta: "Portomarín: Que aconteceu à antiga vila quando foi construída a barragem?",
+        opcoes: ["Foi abandonada", "Foi submersa e reconstruída no alto", "Foi transformada em museu"],
+        correta: "Foi submersa e reconstruída no alto"
+      },
+      {
+        pergunta: "Palas de Rei: Que tipo de construção medieval é comum nesta zona?",
+        opcoes: ["Pontes medievais e igrejas românicas", "Catedrais góticas", "Ruínas visigóticas"],
+        correta: "Pontes medievais e igrejas românicas"
+      },
+      {
+        pergunta: "Arzúa: Que produto gastronómico é famoso nesta região?",
+        opcoes: ["Queijo", "Vinho tinto", "Chouriço picante"],
+        correta: "Queijo"
+      },
+      {
+        pergunta: "Santiago de Compostela: Que figura bíblica está associada ao túmulo na catedral?",
+        opcoes: ["São Pedro", "São João", "São Tiago"],
+        correta: "São Tiago"
+      }
+    ];
+
+    const quizDiv = document.getElementById("quiz");
+    perguntas.forEach((p, i) => {
+      quizDiv.innerHTML += `<p><strong>${p.pergunta}</strong></p>`;
+      p.opcoes.forEach(opcao => {
+        quizDiv.innerHTML += `
+          <label>
+            <input type="radio" name="pergunta${i}" value="${opcao}">
+            ${opcao}
+          </label><br>`;
+      });
+    });
+
+    document.getElementById("quizForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      let pontuacao = 0;
+
+      perguntas.forEach((p, i) => {
+        const resposta = document.querySelector(`input[name="pergunta${i}"]:checked`);
+        if (resposta && resposta.value === p.correta) {
+          pontuacao++;
+        }
+      });
+
+      const resultado = document.getElementById("resultado");
+      if (pontuacao === perguntas.length) {
+        resultado.innerHTML = `<h2>Parabéns! Respondeste corretamente a todas as perguntas. Completaste o Caminho Francês com distinção!</h2>`;
+      } else {
+        resultado.innerHTML = `<h2>Acertaste ${pontuacao} de ${perguntas.length} perguntas. Talvez tenhas perdido alguma etapa do Caminho.</h2>`;
+      }
+    });
+  </script>
+</body>
+</html>

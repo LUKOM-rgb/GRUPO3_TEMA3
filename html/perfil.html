@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfil do Utilizador</title>
+  <script src="/JS/models/perfil.js" defer></script>
+  <script src="/JS/models/loginModel.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="/CSS/perfil.css">
+</head>
+<body>
+  <div class="perfil-container">
+    <button class="botao-voltar" onclick="window.history.back()">← Voltar</button>
+
+    <img src="/img/foto-do-perfil.png" alt="Imagem de Perfil" class="imagem-perfil" />
+    <div class="nome">Nome</div>
+    <div class="nivel">Nível</div>
+
+    <button id="logout-btn" onclick="logout()">Logout</button>
+
+    <h3>Conquistas Desbloqueadas</h3>
+    <ul id="lista-conquistas"></ul>
+
+    <h3>Estilo de caminhos</h3>
+    <ul id="lista-caminhos"></ul>
+
+    <h3>Preferências favoritas</h3>
+    <ul id="lista-preferencias"></ul>
+
+    <h3>Escolher objetivos preferidos</h3>
+    <form onsubmit="guardarTemas(event)">
+      <label><input type="checkbox" name="temas" value="Conexão espiritual" /> Conexão espiritual</label>
+      <label><input type="checkbox" name="temas" value="Cultura" /> Cultura</label>
+      <label><input type="checkbox" name="temas" value="Superação Pessoal" /> Superação Pessoal</label>
+      <label><input type="checkbox" name="temas" value="Descanso" /> Descanso</label>
+      <label><input type="checkbox" name="temas" value="Turismo consciente" /> Turismo consciente</label>
+      <button type="submit">Guardar Preferências</button>
+    </form>
+  </div>
+</body>
+</html>

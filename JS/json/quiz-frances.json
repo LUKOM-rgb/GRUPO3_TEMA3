@@ -1,0 +1,72 @@
+[
+  {
+    "pergunta": "Saint-Jean-Pied-de-Port: Esta cidade está localizada em que região francesa?",
+    "opcoes": ["Provença", "Aquitânia", "Normandia"],
+    "correta": "Aquitânia"
+  },
+  {
+    "pergunta": "Roncesvalles: O que é especialmente famoso neste local para os peregrinos?",
+    "opcoes": ["Um castelo templário", "Uma batalha lendária e um mosteiro", "Uma ponte romana"],
+    "correta": "Uma batalha lendária e um mosteiro"
+  },
+  {
+    "pergunta": "Pamplona: Qual é o evento mundialmente famoso realizado nesta cidade?",
+    "opcoes": ["Tourada de Sevilha", "Festa de San Fermín e Corrida de Touros", "Carnaval Basco"],
+    "correta": "Festa de San Fermín e Corrida de Touros"
+  },
+  {
+    "pergunta": "Logroño: Esta cidade está no coração de qual região vinícola?",
+    "opcoes": ["Rioja", "Ribera del Duero", "Catalunha"],
+    "correta": "Rioja"
+  },
+  {
+    "pergunta": "Burgos: Qual é a atração mais icónica da cidade?",
+    "opcoes": ["Aqueduto romano", "Catedral gótica de Burgos", "Castelo medieval destruído"],
+    "correta": "Catedral gótica de Burgos"
+  },
+  {
+    "pergunta": "León: Que famoso edifício modernista se encontra aqui, projetado por Gaudí?",
+    "opcoes": ["Casa Batlló", "Casa de los Botines", "Sagrada Família"],
+    "correta": "Casa de los Botines"
+  },
+  {
+    "pergunta": "Astorga: Que tipo de edifício projetado por Gaudí existe nesta cidade?",
+    "opcoes": ["Paço episcopal", "Palácio real", "Estação de comboios"],
+    "correta": "Paço episcopal"
+  },
+  {
+    "pergunta": "Ponferrada: Qual é o nome da fortaleza presente nesta cidade?",
+    "opcoes": ["Castelo dos Templários", "Castelo de Santiago", "Alcáçova de León"],
+    "correta": "Castelo dos Templários"
+  },
+  {
+    "pergunta": "O Cebreiro: Que arquitetura típica se pode ver aqui?",
+    "opcoes": ["Pallozas celtas", "Casas mouriscas", "Chalés suíços"],
+    "correta": "Pallozas celtas"
+  },
+  {
+    "pergunta": "Sarria: Por que razão muitos peregrinos começam aqui?",
+    "opcoes": ["É o ponto mais bonito", "É onde está o marco dos últimos 100 km", "Tem uma estação de comboios"],
+    "correta": "É onde está o marco dos últimos 100 km"
+  },
+  {
+    "pergunta": "Portomarín: Que aconteceu à antiga vila quando foi construída a barragem?",
+    "opcoes": ["Foi abandonada", "Foi submersa e reconstruída no alto", "Foi transformada em museu"],
+    "correta": "Foi submersa e reconstruída no alto"
+  },
+  {
+    "pergunta": "Palas de Rei: Que tipo de construção medieval é comum nesta zona?",
+    "opcoes": ["Pontes medievais e igrejas românicas", "Catedrais góticas", "Ruínas visigóticas"],
+    "correta": "Pontes medievais e igrejas românicas"
+  },
+  {
+    "pergunta": "Arzúa: Que produto gastronómico é famoso nesta região?",
+    "opcoes": ["Queijo", "Vinho tinto", "Chouriço picante"],
+    "correta": "Queijo"
+  },
+  {
+    "pergunta": "Santiago de Compostela: Que figura bíblica está associada ao túmulo na catedral?",
+    "opcoes": ["São Pedro", "São João", "São Tiago"],
+    "correta": "São Tiago"
+  }
+]

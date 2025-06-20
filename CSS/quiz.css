@@ -1,0 +1,287 @@
+body {
+    font-family: Inter, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+
+  h1 {
+    text-align: center;
+    color: #2C8B57;
+    margin-bottom: 2rem;
+  }
+
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  p {
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #333;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.6rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+
+  label:hover {
+    background-color: #e0e0e0;
+  }
+
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+
+  button {
+    margin-top: 2rem;
+    background-color: #C2A484;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #2C8B57;
+  }
+
+  #resultado {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  #resultado h2 {
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  #resultado h2:contains("✅") {
+    background-color: #388e3c;
+  }
+
+  #resultado h2:contains("⚠️") {
+    background-color: #fbc02d;
+    color: #333;
+  }
+
+  @media (max-width: 600px) {
+    form {
+      padding: 1rem;
+    }
+    button {
+      font-size: 0.95rem;
+    }
+}
+
+.nav-bar {
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 16px;
+	background: white;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.nav-logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+	color: #2C8B57;
+	margin: 0;
+}
+
+.nav {
+	display: flex;
+	gap: 48px;
+	list-style: none;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #18191F;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.nav li a:hover {
+	color: #C2A484;
+}
+
+.nav-btns {
+	display: flex;
+	margin-left: 100px;
+	gap: 12px;
+}
+
+
+.nav-btns button {
+	padding: 14px 16px;
+	border-radius: 6px;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	border: none;
+	cursor: pointer;
+	margin: 0 14px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cores dos botões */
+.nav-btns button:first-child {
+	background-color: #C2A484;
+}
+
+.nav-btns button:last-child {
+	background-color: #2C8B57;
+}
+
+
+.nav-btns button:hover {
+	opacity: 0.8;
+	color: #18191F;
+}
+
+
+.nav-btns button:active {
+	margin: 0 14px;
+	transform: scale(0.97);
+	outline: none;
+}
+
+/*-----------------Barra Menu--------------------*/
+
+ul {
+	display: flex;
+	gap: 48px;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+li a {
+	color: #18191F;
+	padding: 14px;
+	text-decoration: none;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+
+li a:hover {
+	color: #C2A484;
+}
+
+
+button {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 6px;
+	margin-right: 14px;
+	margin-left: 14px;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	height: min-content;
+
+}
+
+button:hover {
+	color: #18191F;
+}
+
+a {
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+/* Estilo para a imagem do logotipo no navbar */
+.nav-logo-img {
+    height: 50px;
+    width: 300px;
+    object-fit: contain;
+}
+
+/* Container principal do nav */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    gap: 40px; /* Espaço entre logotipo e conteúdo central */
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Container central */
+.nav-center-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajuste no menu */
+nav ul {
+    display: flex;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Botões à direita */
+.nav-btns {
+    display: flex;
+    gap: 12px;
+    margin-left: auto; /* Empurra para a direita */
+}
+
+.hidden {
+	opacity: 0;
+	user-select: none;
+	width: 100%;
+}

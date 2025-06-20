@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Caminho Inglês</title>
+  <link rel="stylesheet" href="/CSS/quiz.css">
+  <script src="/JS/models/quizz.js"></script>
+    <script src="/JS/models/registerModel.js"></script>
+</head>
+<body>
+  <nav>
+    <!-- Imagem do logo alinhada à esquerda -->
+    <a href="/index.html" class="logo-link">  <!-- Altere para a página que deseja -->
+        <img src="/img/PeregrinoLogoCrop.png" alt="Logo Peregrino" class="nav-logo-img">
+    </a>
+
+    <!-- Container central para menu e botões -->
+    <div class="nav-center-container">
+        <p class="hidden">ignore</p>
+        <ul>
+            <li><a href="/html/Caminhos.html">Caminhos</a></li>
+            <li><a href="/html/Noticias.html">Notícias</a></li>
+            <li><a href="/html/Comunidade.html">Comunidade</a></li>
+			      <li><a href="/html/QuemSomos.html">Sobre</a></li>
+            <li><a href="/html/perfil.html">Perfil</a></li>
+        </ul>
+    </div>
+
+    <!-- Botões à direita -->
+    <div class="nav-btns">
+        <a href="/html/Login.html"><button style="background: #C2A484;">Entrar</button></a>
+        <a href="/html/Registar.html"><button style="background: #2C8B57;">Registar</button></a>
+    </div>
+</nav>
+<script src="/JS/views/loginView.js"></script>
+    <h1>Quiz: Concluíste o Caminho Inglês?</h1>
+  <form id="quizForm">
+    <div id="quiz"></div>
+    <button type="submit">Verificar Respostas</button>
+  </form>
+  <div id="resultado"></div>
+
+  <script>
+    const perguntas = [
+      {
+        pergunta: "Ferrol: Este porto galego é conhecido historicamente por quê?",
+        opcoes: ["Indústria têxtil", "Estaleiros navais militares", "Minas de ouro"],
+        correta: "Estaleiros navais militares"
+      },
+      {
+        pergunta: "Neda: Qual destes produtos é tradicionalmente associado a esta localidade?",
+        opcoes: ["Pão artesanal", "Queijo de cabra", "Vinho albariño"],
+        correta: "Pão artesanal"
+      },
+      {
+        pergunta: "Pontedeume: Que rio cruza esta vila charmosa?",
+        opcoes: ["Rio Eume", "Rio Tambre", "Rio Miño"],
+        correta: "Rio Eume"
+      },
+      {
+        pergunta: "Betanzos: Esta cidade é especialmente famosa por qual iguaria?",
+        opcoes: ["Tortilha cremosa", "Marisco grelhado", "Bolo de Santiago"],
+        correta: "Tortilha cremosa"
+      },
+      {
+        pergunta: "Bruma: Este local é conhecido por quê no Caminho Inglês?",
+        opcoes: ["Antigo hospital de peregrinos", "Ruínas romanas", "Estação de comboios"],
+        correta: "Antigo hospital de peregrinos"
+      },
+      {
+        pergunta: "Sigüeiro: Que estrutura atravessam os peregrinos ao entrar nesta vila?",
+        opcoes: ["Uma ponte medieval sobre o rio Tambre", "Um túnel escavado na montanha", "Uma passarela suspensa"],
+        correta: "Uma ponte medieval sobre o rio Tambre"
+      },
+      {
+        pergunta: "Santiago de Compostela: Que símbolo está associado aos peregrinos?",
+        opcoes: ["Cruz templária", "Concha de vieira", "Espada de São Tiago"],
+        correta: "Concha de vieira"
+      }
+    ];
+
+    const quizDiv = document.getElementById("quiz");
+    perguntas.forEach((p, i) => {
+      quizDiv.innerHTML += `<p><strong>${p.pergunta}</strong></p>`;
+      p.opcoes.forEach(opcao => {
+        quizDiv.innerHTML += `
+          <label>
+            <input type="radio" name="pergunta${i}" value="${opcao}">
+            ${opcao}
+          </label><br>`;
+      });
+    });
+
+    document.getElementById("quizForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      let pontuacao = 0;
+
+      perguntas.forEach((p, i) => {
+        const resposta = document.querySelector(`input[name="pergunta${i}"]:checked`);
+        if (resposta && resposta.value === p.correta) {
+          pontuacao++;
+        }
+      });
+
+      const resultado = document.getElementById("resultado");
+      if (pontuacao === perguntas.length) {
+        resultado.innerHTML = `<h2>Parabéns! Respondeste corretamente a todas as perguntas. Completaste o Caminho Inglês com sucesso!</h2>`;
+      } else {
+        resultado.innerHTML = `<h2>Acertaste ${pontuacao} de ${perguntas.length} perguntas. Talvez tenhas saltado alguma etapa.</h2>`;
+      }
+    });
+  </script>
+</body>
+</html>

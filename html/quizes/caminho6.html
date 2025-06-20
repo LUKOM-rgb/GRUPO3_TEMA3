@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Caminho Central Português</title>
+  <link rel="stylesheet" href="/CSS/quiz.css">
+</head>
+<body>
+	<nav>
+    <!-- Imagem do logo alinhada à esquerda -->
+    <a href="/index.html" class="logo-link">  <!-- Altere para a página que deseja -->
+        <img src="/img/PeregrinoLogoCrop.png" alt="Logo Peregrino" class="nav-logo-img">
+    </a>
+
+    <!-- Container central para menu e botões -->
+    <div class="nav-center-container">
+        <p class="hidden">ignore</p>
+        <ul>
+            <li><a href="/html/Caminhos.html">Caminhos</a></li>
+            <li><a href="/html/Noticias.html">Notícias</a></li>
+            <li><a href="/html/Comunidade.html">Comunidade</a></li>
+			      <li><a href="/html/QuemSomos.html">Sobre</a></li>
+            <li><a href="/html/perfil.html">Perfil</a></li>
+        </ul>
+    </div>
+
+    <!-- Botões à direita -->
+    <div class="nav-btns">
+        <a href="/html/Login.html"><button style="background: #C2A484;">Entrar</button></a>
+        <a href="/html/Registar.html"><button style="background: #2C8B57;">Registar</button></a>
+    </div>
+</nav>
+	<script src="/JS/views/loginView.js"></script>
+
+	<h1 id="quizTitle">Quiz</h1>
+
+	<form id="quizForm">
+		<div id="quiz"></div>
+		<button type="submit">Verificar Respostas</button>
+	</form>
+
+	<div id="resultado"></div>
+
+    <script src="/JS/models/QuizModel.js"></script>
+  <script>
+		loadQuiz('/JS/json/quiz-central-portugues.json', 'Quiz do Caminho Central Português');
+  </script>
+</body>
+</html>
