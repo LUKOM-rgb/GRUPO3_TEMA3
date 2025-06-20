@@ -43,8 +43,7 @@ IMG/
 
 1. Clonar o repositório:
 
-** git clone https://github.com/teu-username/o-peregrino.git **
-
+** git clone https://github.com/LUKOM-rgb/GRUPO3_TEMA3.git**
 
 2. Abrir o projeto com o Visual Studio Code.
 
